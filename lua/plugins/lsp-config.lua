@@ -24,6 +24,12 @@ return {
             lspconfig.pyright.setup({
                 capabilities = capabilities
             })
+            lspconfig.ltex.setup({
+                on_attach = on_attach,
+                cmd = { "ltex-ls" },
+                filetypes = { "markdown", "text" },
+                capabilities = capabilities
+            })
         end
     }
 }
