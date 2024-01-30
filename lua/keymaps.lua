@@ -64,3 +64,8 @@ vim.keymap.set('n', "H", vim.lsp.buf.hover, {})
 vim.keymap.set('n', "gd", vim.lsp.buf.definition, {})
 vim.keymap.set({ 'n', 'v' }, "<leader>ca", vim.lsp.buf.code_action, {})
 vim.keymap.set('n', "<leader>x", vim.lsp.buf.references, {})
+
+
+-- [Git] --
+vim.keymap.set('n', "<leader>Gp", "<CMD>Gitsigns preview_hunk<CR>", {})
+vim.keymap.set('n', "<leader>Gt", "<CMD>Gitsigns preview_hunk_inline<CR>", {})
