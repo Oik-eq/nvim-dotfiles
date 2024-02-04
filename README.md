@@ -1,6 +1,6 @@
 # Dependencies
 ```
-scoop install fd ripgrep neovim neovide nodejs lua-language-server
+scoop install fd ripgrep neovim neovide nodejs lua-language-server rust-analyzer
 npm install -g pyright
 ```
 
